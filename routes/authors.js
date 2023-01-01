@@ -4,9 +4,9 @@ import * as controllers from "../controllers/authors.js";
 const router = Router();
 
 router.get("/", controllers.getauthors);
-router.get("/:id", controllers.getauthors);
-router.post("/", controllers.createauthors);
-router.put("/:id", controllers.updateauthors);
-router.delete("/:id", controllers.deleteauthors);
+router.get("/:id", controllers.getauthor);
+router.post("/", controllers.createauthor);
+router.put("/:id", controllers.updateauthor);
+router.delete("/:id", controllers.deleteauthor);
 
 export default router;
