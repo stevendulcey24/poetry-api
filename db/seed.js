@@ -1,4 +1,4 @@
-import connection from './connection.js'
+import connection from '../db/connection.js'
 import authors from '../models/authors.js'
 import data from './authors.json' assert {type: 'json'}
 
